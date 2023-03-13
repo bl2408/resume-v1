@@ -45,6 +45,9 @@
         grid-template-columns: var(--grid-columns-main);
         grid-template-rows: max-content auto;
     }
+    main > header{
+        padding-top: 0;
+    }
     main > aside{
         padding-left: calc( var(--pad-left) * .6);
     }
