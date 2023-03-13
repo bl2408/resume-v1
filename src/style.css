@@ -57,6 +57,31 @@ main {
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+nav{
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-size: 0.6rem;
+	justify-content: end;
+	height: 30px;
+}
+nav a{
+	display: flex;
+	align-items: center;
+	background-color: black;
+	color: white;
+	padding: 0 20px;
+}
+nav a:visited, nav a:active{
+	color: white;
+}
+nav a:hover{
+	background-color: rgb(61, 61, 61);
+	color: white;
+}
+
 a {
 	text-decoration: none;	
 }
@@ -108,6 +133,7 @@ main > header{
 	justify-content: end;
 	border-left: var(--border-size-high) solid var(--border-col-high);
 	padding-left: var(--pad-left);
+	padding-top: 30px;
 }
 main > header > * {
 	margin: 0;

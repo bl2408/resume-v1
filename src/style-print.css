@@ -48,6 +48,9 @@
     main > aside{
         padding-left: calc( var(--pad-left) * .6);
     }
+    nav{
+        display: none;
+    }
     .page-break{
         display: block;
         page-break-before: always;

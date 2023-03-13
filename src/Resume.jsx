@@ -15,6 +15,9 @@ export default function Resume(){
     return(
 
         <main>
+            <nav>
+                <a href="https://github.com/bl2408/resume-v1" target="_blank">View source on Github</a>
+            </nav>
             <header>
                 <h1>Brian Lambert</h1>
                 {/* <p>Software Engineer</p> */}
@@ -41,8 +44,8 @@ export default function Resume(){
                     <Box {...CONTENT_AE}/>
                     <Box {...CONTENT_CROWN}/>
                     <Box {...CONTENT_EUTECTIC}/>
-                    <Box {...CONTENT_COLES}/>
                 <div className='page-break'></div>
+                    <Box {...CONTENT_COLES}/>
                     <Box {...CONTENT_BIGW}/>
                     <Box {...CONTENT_CBA}/>
 
