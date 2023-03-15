@@ -12,8 +12,17 @@ export const EDU_AXI = {
     content: (
         <ul>
             <li>Software Engineering: Transform</li>
-            <li>Programming languages and frameworks, including JavaScript, SQL, HTML, CSS, Ruby, Rails, and React.</li>
-            <li>Provided me with a strong foundation in web development and equipped me with the skills I need to build modern web applications using a variety of tools and technologies.</li>
+            <li>Programming languages and frameworks, including JavaScript, SQL, HTML, CSS, Ruby, Ruby on Rails, and React.</li>
+            <li>Gained expertise in designing and implementing software solutions using both OOP and functional programming paradigms.</li>
+            <li>
+                Provided me with a strong foundation in web development and equipped me with the skills I need to build modern 
+                web applications using a variety of tools and technologies.
+            </li>
+            <li>
+               Designing, developing, and testing REST APIs while utilizing industry best practices to ensure optimal performance
+               and functionality.
+            </li>
+            <li>Experience in utilizing tools such as NodeJS, Git, and GitHub</li>
         </ul>
     ) 
 }

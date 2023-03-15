@@ -1,13 +1,14 @@
 import "./style.css"
 import "./style-print.css"
 
-import { itemHobbies, itemSkills, itemSocials } from "./content/items";
+import { itemHobbies, itemSkills, itemSocials, itemSoftSkills } from "./content/items";
 import { CONTENT_CROWN } from "./content/box-crown";
 import { CONTENT_EUTECTIC } from "./content/box-eutectic";
 import { CONTENT_BIGW, CONTENT_CBA, CONTENT_COLES } from "./content/box-other";
 import { EDU_AXI, EDU_CROWN, EDU_VU_FOOTS, EDU_VU_SA } from "./content/box-edu";
 import { CONTENT_AE } from "./content/box-ae";
 import Box from "./Box";
+import { CONTENT_LD } from "./content/box-ld";
 
 
 export default function Resume(){
@@ -49,19 +50,30 @@ export default function Resume(){
                     <Box {...CONTENT_BIGW}/>
                     <Box {...CONTENT_CBA}/>
 
-
                 <h2>Education</h2>
                     <Box {...EDU_AXI}/>
                     <Box {...EDU_CROWN}/>
                     <Box {...EDU_VU_FOOTS}/>
+                <div className='page-break'></div>
                     <Box {...EDU_VU_SA}/>
+
+                <h2>Projects</h2>
+                    <Box {...CONTENT_LD}/>
             </section>
             <aside>
                 <article>
-                    <h2>Skills</h2>
+                    <h2>Hard skills</h2>
                     <ul>
                         {
                             itemSkills.map(item=><li key={item.label}>{item.label}</li>)
+                        }
+                    </ul>
+                </article>
+                <article>
+                    <h2>Soft skills</h2>
+                    <ul>
+                        {
+                            itemSoftSkills.map(item=><li key={item.label}>{item.label}</li>)
                         }
                     </ul>
                 </article>

@@ -33,3 +33,14 @@ export const itemHobbies = [
     { label: "Tennis" },
     { label: "Basketball" },
 ]
+
+export const itemSoftSkills = [
+    { label: "Teamwork" },
+    { label: "Independence" },
+    { label: "Adaptability" },
+    { label: "Problem-solving" },
+    { label: "Communication" },
+    { label: "Creativity" },
+    { label: "Interpersonal" },
+    { label: "Critical thinking" },
+]
