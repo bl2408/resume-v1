@@ -14,7 +14,7 @@ export const CONTENT_COLES = {
     },
     content: (
         <ul>
-            <li>Fruit and vegetable, dairy, nightfill and cashier departments</li>
+            <li>Fruit and vegetable, dairy, nightfill and cashier departments.</li>
         </ul>
     )
 }

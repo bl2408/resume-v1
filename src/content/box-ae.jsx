@@ -15,7 +15,7 @@ export const CONTENT_AE = {
         )        
     },
     dates: {
-        start: "JUL 2019",
+        start: "MAR 2019",
         end: "PRESENT"
     },
     content: (
