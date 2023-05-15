@@ -20,6 +20,8 @@ export const itemSkills = [
     { label: "C# / MonoDevelop" },
     { label: "Git / Github" },
     { label: "React" },
+    { label: "NextJS" },
+    { label: "Tailwind CSS" },
     { label: "MySQL / PostgreSQL" },
     { label: "Wordpress" },
     { label: "Photoshop" },
